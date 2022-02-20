@@ -1,0 +1,120 @@
+*{    
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    font-family: 游明朝体, "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    color: #eee;
+}
+
+.container{
+    background-image: url(bg.png);
+    background-size: cover;
+}
+
+.top_image{
+    vertical-align: top;
+}
+
+header{
+    background-color: #2A3576;
+    padding: 0 300px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+li{
+    margin: 10px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+}
+
+.list_content a{
+    font-size: 20px;
+}
+
+.mc h2{
+    text-align: center;
+}
+
+.mc_person h3{
+    text-align: center;
+}
+
+@media screen and (min-width:1025px) {
+    .top_image{
+        width: 100%;
+    }
+
+    .about{
+        padding: 50px 350px;
+    }
+
+    .about h1{
+        margin: 20px;
+    }
+
+    .theme{
+        padding: 50px 350px;
+    }
+
+    .theme h1{
+        margin: 20px;
+    }
+
+    .mc{
+        padding: 50px 200px;
+    }
+
+    .mc h1{
+        margin: 20px;
+    }
+
+    .mc h2{
+        margin-top: 50px;
+    }
+
+    .mc_person{
+        width: 400px;
+    }
+
+    .mc_person h3{
+        margin-top: 10px;
+    }
+    
+    .mc_person img{
+        margin: 0 calc((100% - 240px) / 2);
+    }
+
+    .mc_haisya{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .mc_kessho{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+}
