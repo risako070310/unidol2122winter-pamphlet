@@ -57,6 +57,10 @@ h1{
     text-align: center;
 }
 
+.specialguest h3{
+    text-align: center;
+}
+
 @media screen and (min-width:1025px) {
     .top_image{
         width: 100%;
@@ -108,6 +112,7 @@ h1{
         justify-content: space-around;
         margin-top: 20px;
         margin-bottom: 80px;
+        padding: 0 100px;
     }
 
     .mc_kessho{
@@ -116,5 +121,26 @@ h1{
         justify-content: space-around;
         margin-top: 20px;
         margin-bottom: 80px;
+        padding: 0 100px;
     }
+
+    .specialguest{
+        width: 800px;
+        padding: 50px 0;
+        margin: 0 calc((100% - 800px) / 2);
+    }
+
+    .specialguest h1{
+        margin: 20px;
+    }
+
+    .specialguest img{
+        width: 600px;
+        margin: 0 calc((100% - 600px) / 2);
+    }
+
+    .specialguest h3{
+        margin-top: 10px;
+    }
+
 }
