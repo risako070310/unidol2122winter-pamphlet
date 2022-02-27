@@ -8,11 +8,16 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6, p{
-    color: #eee;
+    color: #fff;
 }
 
 .container{
     background-image: url(bg.png);
+    background-size: cover;
+}
+
+.team_final_container{
+    background-image: url(bg_long.png);
     background-size: cover;
 }
 
@@ -25,14 +30,14 @@ header{
     padding: 0 300px;
 }
 
-ul{
+header ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
 }
 
-li{
+header ul li{
     margin: 10px 20px;
 }
 
@@ -41,7 +46,19 @@ a{
     color: #fff;
 }
 
-h1{
+.about h1{
+    text-align: center;
+}
+
+.theme h1{
+    text-align: center;
+}
+
+.mc h1{
+    text-align: center;
+}
+
+.specialguest h1{
     text-align: center;
 }
 
@@ -59,6 +76,20 @@ h1{
 
 .specialguest h3{
     text-align: center;
+}
+
+.team_box_final{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #555;
+}
+
+.team_final{
+    color: #000;
+}
+
+.uni_final{
+    color: #000;
 }
 
 @media screen and (min-width:1025px) {
@@ -141,6 +172,53 @@ h1{
 
     .specialguest h3{
         margin-top: 10px;
+    }
+
+    .team_final_container{
+        padding: 20px 50px;
+    }
+
+    .title{
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .team_box_final{
+        width: 1000px;
+        margin: 0 calc((100% - 1100px) / 2);
+        padding: 20px 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .final_left{
+        width: 300px;
+    }
+
+    .final_right{
+        width: 300px;
+    }
+
+    .final_right h3{
+        color: #000;
+        margin: 5px;
+    }
+    
+    .final_left img{
+        width: 250px;
+    }
+
+    .catchcopy_final{
+        color: #000;
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    .message{
+        width: 300px;
+        height: auto;
+        margin: 30px 0;
     }
 
 }
