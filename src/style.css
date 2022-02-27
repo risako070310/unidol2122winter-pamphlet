@@ -21,6 +21,11 @@ h1, h2, h3, h4, h5, h6, p{
     background-size: cover;
 }
 
+.team_re_container{
+    background-image: url(bg_long.png);
+    background-size: cover;
+}
+
 .top_image{
     vertical-align: top;
 }
@@ -90,6 +95,10 @@ a{
 
 .uni_final{
     color: #000;
+}
+
+footer{
+    background-color: #2A3576;
 }
 
 @media screen and (min-width:1025px) {
@@ -185,7 +194,7 @@ a{
 
     .team_box_final{
         width: 1000px;
-        margin: 0 calc((100% - 1100px) / 2);
+        margin: 30px calc((100% - 1100px) / 2);
         padding: 20px 30px;
         display: flex;
         flex-wrap: wrap;
@@ -221,4 +230,37 @@ a{
         margin: 30px 0;
     }
 
+    .team_re_container{
+        padding: 20px 50px;
+    }
+
+    .team_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .team_box_re{
+        width: 300px;
+        padding: 20px 30px;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px #555;
+        margin: 30px 10px;
+    }
+
+    .team_box_re img{
+        width: 250px;
+        margin: 0 25px;
+    }
+
+    .team_re{
+        color: #000;
+        text-align: center;
+    }
+
+    .uni_re{
+        color: #000;
+        text-align: center;
+    }
 }
