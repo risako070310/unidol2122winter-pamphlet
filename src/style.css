@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, h6, p{
     background-size: cover;
 }
 
+.time_container{
+    background-image: url(bg_long.png);
+    background-size: cover;
+}
+
 .top_image{
     vertical-align: top;
 }
@@ -99,6 +104,10 @@ a{
 
 footer{
     background-color: #2A3576;
+}
+
+table{
+    color: #fff;
 }
 
 @media screen and (min-width:1025px) {
@@ -189,7 +198,7 @@ footer{
 
     .title{
         text-align: center;
-        margin: 20px 0;
+        padding: 20px 0;
     }
 
     .team_box_final{
@@ -255,6 +264,7 @@ footer{
     }
 
     .team_re{
+        font-size: 24px;
         color: #000;
         text-align: center;
     }
@@ -262,5 +272,59 @@ footer{
     .uni_re{
         color: #000;
         text-align: center;
+    }
+    
+    .time_container h2{
+        text-align: center;
+        padding: 20px;
+    }
+
+    table{
+        margin: auto;
+    }
+
+    td{
+        font-size: 20px;
+        padding: 5px 50px;
+    }
+    
+    .footer_title{
+        padding: 20px 50px;
+    }
+
+    .footer_box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_box ul{
+        margin: 20px 0;
+    }
+
+    .footer_img{
+        width: 200px;
+        margin: 20px 50px;
+    }
+
+    .footer_content{
+        list-style: none;
+        margin: 10px 0px;
+    }
+
+    footer i{
+        font-size: 40px;
+    }
+
+    .sns{
+        float: right;
+        padding-right: 50px;
+    }
+
+    .sns a{
+        margin: 20px;
+    }
+
+    footer{
+        padding-bottom: 100px;
     }
 }

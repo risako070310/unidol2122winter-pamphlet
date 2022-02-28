@@ -7,10 +7,20 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="src/style.css" type="text/css">
         <link rel="shortcut icon" href="src/icon.png" >
+
+<!--        Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFNBTHTE6B"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-LFNBTHTE6B');
+        </script>
         
 <!--        fontawesomeの導入-->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-           
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
 <!--        OGPの設定-->
         <meta property="og:title" content="UNIDOL 2021-22 Winter 決勝戦/敗者復活戦 パンフレット" />
         <meta property="og:type" content="website" />
@@ -24,9 +34,9 @@
         <img class="top_image" src="src/top.JPEG" />
         <header>
             <ul>
-                <li class="list_content"><a href="/">タイムテーブル</a></li>
-                <li class="list_content"><a href="/">決勝戦出場チーム</a></li>
-                <li class="list_content"><a href="/">敗者復活戦出場チーム</a></li>
+                <li class="list_content"><a href="https://unidol2122winter.netlify.app/timetable">タイムテーブル</a></li>
+                <li class="list_content"><a href="https://unidol2122winter.netlify.app/team-final">決勝戦出場チーム</a></li>
+                <li class="list_content"><a href="https://unidol2122winter.netlify.app/team-repechage">敗者復活戦出場チーム</a></li>
             </ul>
         </header>
         <div class="container">
@@ -70,9 +80,15 @@
                     </div>
                 </div>
             </div>
-
             <div class="specialguest">
                 <h1>スペシャルゲスト</h1>
+                <img src="src/hkt48.jpeg">
+                <h3>HKT48</h3>
+                <p>AKB48グループ第4弾として2011年に福岡に発足。<br>2013年3月20日、デビューシングル「スキ！スキ！スキップ！」を発売。初週売上25万枚・オリコンウィークリーチャート1位を獲得し、女性アーティスト（ソロを含む）のデビューシングルとして歴代最高の売上を記録した。結成から10周年を迎え、2022年春よりライブツアーを開催する。</p>
+            </div>
+
+            <div class="specialguest">
+                <h1>協賛企業様</h1>
                 <img src="src/hkt48.jpeg">
                 <h3>HKT48</h3>
                 <p>AKB48グループ第4弾として2011年に福岡に発足。<br>2013年3月20日、デビューシングル「スキ！スキ！スキップ！」を発売。初週売上25万枚・オリコンウィークリーチャート1位を獲得し、女性アーティスト（ソロを含む）のデビューシングルとして歴代最高の売上を記録した。結成から10周年を迎え、2022年春よりライブツアーを開催する。</p>
@@ -80,6 +96,20 @@
         </div>
         <footer>
             <h1 class="footer_title">UNIDOL 2021-22 Winter 決勝戦/敗者復活戦</h1>
+            <div class="footer_box">
+                <img class="footer_img" src="src/logo.png">
+                <ul>
+                    <li class="footer_content"><a href="https://unidol2122winter.netlify.app/">ホーム</a></li>
+                    <li class="footer_content"><a href="https://unidol2122winter.netlify.app/timetable">タイムテーブル</a></li>
+                    <li class="footer_content"><a href="https://unidol2122winter.netlify.app/team-final">決勝戦出場チーム</a></li>
+                    <li class="footer_content"><a href="https://unidol2122winter.netlify.app/team-repechage">敗者復活戦出場チーム</a></li>
+                </ul>
+            </div>
+            <div class="sns">
+                <a href="https://twitter.com/UNIDOL_EXCO"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/unidol_exco/"><i class="fa-brands fa-instagram-square"></i></a>
+                <a href="https://unidol.jp"><i class="fa-solid fa-globe"></i></a>
+            </div>
         </footer>
     </body>
 </html>
