@@ -177,6 +177,7 @@ table{
         width: 800px;
         padding: 50px 0;
         margin: 0 calc((100% - 800px) / 2);
+        margin-bottom: 200px;
     }
 
     .specialguest h1{
@@ -312,10 +313,6 @@ table{
         margin: 10px 0px;
     }
 
-    footer i{
-        font-size: 40px;
-    }
-
     .sns{
         float: right;
         padding-right: 50px;
@@ -325,7 +322,65 @@ table{
         margin: 20px;
     }
 
+    .sns i{
+        font-size: 40px;
+        font-style: normal;
+        color: #fff;
+    }
+
+    .sns .fa-globe{
+        font-size: 36px;
+    }
+
+    icon::after {
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+        display: inline-block;
+        content: "\f640";
+    }
+    
     footer{
+        padding-bottom: 80px;
+    }
+
+    .company h1{
+        text-align: center;
+        margin: 20px;
+    }
+
+    .dejiria{
+        margin: 0 calc((100% - 400px) / 2);
+    }
+
+    .company a:hover{
+        opacity: 60%;
+    }
+
+    .banner_dejiria{
+        margin: 0 calc((100% - 600px) / 2);
+    }
+
+    .haier{
+        margin: 0 calc((100% - 300px) / 2);
+        margin-top: 50px;
+    }
+
+    .banner_haier{
+        margin: 0 calc((100% - 400px) / 2);
+    }
+
+    .company_box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 200px;
+        margin-top: 50px;
         padding-bottom: 100px;
+    }
+
+    .company_box img{
+        width: 300px;
+        height: auto;
     }
 }
