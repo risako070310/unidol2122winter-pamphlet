@@ -114,6 +114,15 @@ table{
     padding: 10px 20px;
 }
 
+.opv h1{
+    text-align: center;
+}
+
+.opv h2{
+    text-align: center;
+}
+
+
 @media screen and (min-width:1025px) {
     header ul li{
         margin: 10px 20px;
@@ -397,6 +406,23 @@ table{
     .company_box img{
         width: 300px;
         height: auto;
+    }
+    .opv{
+        margin-bottom: 150px;
+        text-align: center;
+    }
+
+    .opv h1{
+        margin-bottom: 20px;
+    }
+    
+    .opv h2{
+        margin-bottom: 50px;
+    }
+
+    .video{
+        width: 500px;
+        margin-bottom: 50px;
     }
 }
 
@@ -684,6 +710,24 @@ table{
         width: 200px;
         height: auto;
     }
+
+    .opv{
+        margin-bottom: 150px;
+        text-align: center;
+    }
+
+    .opv h1{
+        margin-bottom: 20px;
+    }
+    
+    .opv h2{
+        margin-bottom: 50px;
+    }
+
+    .video{
+        width: 500px;
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (min-width:1px) and (max-width:480px) {
@@ -965,5 +1009,23 @@ table{
     td{
         font-size: 20px;
         padding: 5px 10px;
+    }
+
+    .opv{
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .opv h1{
+        margin-bottom: 20px;
+    }
+    
+    .opv h2{
+        margin-bottom: 50px;
+    }
+
+    .video{
+        width: 300px;
+        margin-bottom: 50px;
     }
 }
