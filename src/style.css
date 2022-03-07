@@ -109,6 +109,11 @@ table{
     color: #fff;
 }
 
+.haier{
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
 @media screen and (min-width:1025px) {
     header ul li{
         margin: 10px 20px;
@@ -371,7 +376,7 @@ table{
     }
 
     .haier{
-        margin: 0 calc((100% - 300px) / 2);
+        margin: 0 calc((100% - 340px) / 2);
         margin-top: 50px;
     }
 
@@ -396,7 +401,289 @@ table{
 }
 
 @media screen and (min-width:481px) and (max-width:1024px) {
+    header ul li{
+        margin: 10px 20px;
+    }
+    .top_image{
+        width: 100%;
+    }
 
+    .top_image_phone{
+        display: none;
+    }
+
+    .header{
+        padding: 0 300px;
+    }
+
+    .about{
+        padding: 50px 50px;
+    }
+
+    .about h1{
+        margin: 20px;
+    }
+
+    .theme{
+        padding: 50px 50px;
+    }
+
+    .theme h1{
+        margin: 20px;
+    }
+
+    .mc{
+        padding: 50px 50px;
+    }
+
+    .mc h1{
+        margin: 20px;
+    }
+
+    .mc h2{
+        margin-top: 50px;
+    }
+
+    .mc_person{
+        width: 300px;
+    }
+
+    .mc_person h3{
+        margin-top: 10px;
+    }
+    
+    .mc_person img{
+        margin: 0 calc((100% - 240px) / 2);
+    }
+
+    .mc_haisya{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        padding: 0 30px;
+    }
+
+    .mc_kessho{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        padding: 0 30px;
+    }
+
+    .specialguest{
+        width: 500px;
+        padding: 50px 0;
+        margin: 0 calc((100% - 500px) / 2);
+        margin-bottom: 100px;
+    }
+
+    .specialguest h1{
+        margin: 20px;
+    }
+
+    .specialguest img{
+        width: 500px;
+        margin: 0 calc((100% - 500px) / 2);
+    }
+
+    .specialguest h3{
+        margin-top: 10px;
+    }
+
+    .team_final_container{
+        padding: 20px 50px;
+    }
+
+    .title{
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .team_box_final{
+        width: 600px;
+        margin: 50px calc((100% - 660px) / 2);
+        padding: 20px 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .final_left{
+        width: 300px;
+    }
+
+    .final_right{
+        width: 300px;
+    }
+
+    .final_right h3{
+        color: #000;
+        margin: 5px;
+    }
+    
+    .final_left img{
+        width: 250px;
+    }
+
+    .catchcopy_final{
+        color: #000;
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    .message{
+        width: 450px;
+        height: auto;
+        margin: 30px 0;
+    }
+
+    .team_re_container{
+        padding: 20px 50px;
+    }
+
+    .team_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .team_box_re{
+        width: 300px;
+        padding: 20px 30px;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px #555;
+        margin: 30px 10px;
+    }
+
+    .team_box_re img{
+        width: 250px;
+        margin: 0 25px;
+    }
+
+    .team_re{
+        font-size: 24px;
+        color: #000;
+        text-align: center;
+    }
+
+    .uni_re{
+        color: #000;
+        text-align: center;
+    }
+    
+    .time_container h2{
+        text-align: center;
+        padding: 20px;
+    }
+
+    table{
+        margin: auto;
+        padding-bottom: 150px;
+    }
+
+    td{
+        font-size: 20px;
+        padding: 5px 50px;
+    }
+    
+    .footer_title{
+        padding: 20px 50px;
+    }
+
+    .footer_box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer_box ul{
+        margin: 20px 0;
+    }
+
+    .footer_img{
+        width: 200px;
+        margin: 20px 50px;
+    }
+
+    .footer_content{
+        list-style: none;
+        margin: 10px 0px;
+    }
+
+    .sns{
+        float: right;
+        padding-right: 50px;
+    }
+
+    .sns a{
+        margin: 20px;
+    }
+
+    .sns i{
+        font-size: 40px;
+        font-style: normal;
+        color: #fff;
+    }
+
+    .sns .fa-globe{
+        font-size: 36px;
+    }
+
+    icon::after {
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+        display: inline-block;
+        content: "\f640";
+    }
+    
+    footer{
+        padding-bottom: 80px;
+    }
+
+    .company h1{
+        text-align: center;
+        margin: 20px;
+    }
+
+    .dejiria{
+        margin: 0 calc((100% - 400px) / 2);
+    }
+
+    .company a:hover{
+        opacity: 60%;
+    }
+
+    .banner_dejiria{
+        margin: 0 calc((100% - 600px) / 2);
+    }
+
+    .haier{
+        margin: 0 calc((100% - 340px) / 2);
+        margin-top: 50px;
+    }
+
+    .banner_haier{
+        margin: 0 calc((100% - 400px) / 2);
+    }
+
+    .company_box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 100px;
+        margin-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .company_box img{
+        width: 200px;
+        height: auto;
+    }
 }
 
 @media screen and (min-width:1px) and (max-width:480px) {
@@ -562,7 +849,7 @@ table{
 
     .haier{
         width: 200px;
-        margin: 0 calc((100% - 200px) / 2);
+        margin: 0 calc((100% - 240px) / 2);
         margin-top: 50px;
     }
 
@@ -584,5 +871,99 @@ table{
     .company_box img{
         width: 150px;
         height: auto;
+    }
+
+    .team_final_container{
+        padding: 20px 50px;
+    }
+
+    .title{
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .team_box_final{
+        width: 280px;
+        margin: 20px calc((100% - 300px) / 2);
+        padding: 10px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .final_right h3{
+        color: #000;
+        margin: 5px;
+    }
+    
+    .final_left img{
+        width: 250px;
+        margin: 0 calc((100% - 250px) / 2);
+    }
+
+    .catchcopy_final{
+        color: #000;
+        font-size: 24px;
+        margin: 20px 10px;
+    }
+
+    .setlist{
+        margin: 0 20px;
+    }
+
+    .message{
+        width: 300px;
+        height: auto;
+        margin: 30px 0;
+    }
+
+    .team_re_container{
+        padding: 20px 50px;
+    }
+
+    .team_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .team_box_re{
+        width: 300px;
+        padding: 20px 30px;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px #555;
+        margin: 30px 10px;
+    }
+
+    .team_box_re img{
+        width: 250px;
+        margin: 0 25px;
+    }
+
+    .team_re{
+        font-size: 24px;
+        color: #000;
+        text-align: center;
+    }
+
+    .uni_re{
+        color: #000;
+        text-align: center;
+    }
+    
+    .time_container h2{
+        text-align: center;
+        padding: 20px;
+    }
+
+    table{
+        margin: 10px;
+        padding-bottom: 150px;
+    }
+
+    td{
+        font-size: 20px;
+        padding: 5px 10px;
     }
 }
